@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anmol FC | YouTube Channel</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+    }
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: silver;
+      text-shadow: 0 0 10px white;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      background: #111;
+      padding: 1rem;
+      z-index: 999;
+    }
+    nav a {
+      color: silver;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border: 1px solid silver;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px white;
+    }
+    nav a:hover {
+      background-color: silver;
+      color: #000;
+    }
+    section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: silver;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 8px white;
+    }
+    .subscribe-btn {
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .subscribe-btn:hover {
+      background-color: darkred;
+    }
+    .shorts-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding: 1rem;
+      justify-content: start;
+    }
+    .shorts-container iframe {
+      min-width: 300px;
+      height: 500px;
+      border-radius: 12px;
+    }
+    form input, form textarea {
+      width: 80%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border-radius: 10px;
+      border: none;
+      font-size: 1rem;
+    }
+    form button {
+      padding: 0.6rem 1.2rem;
+      background: silver;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .leak-img {
+      max-width: 90%;
+      border-radius: 12px;
+      margin: 1rem auto;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="home">
+    <img src="https://i.postimg.cc/CKWQKQTr/file-00000000631061f5877e4fc1c2e69d1d-1.png" alt="Anmol FC Logo">
+    <h1>🔥 Anmol FC 🔥</h1>
+    <a href="https://youtube.com/@anmolfc_22" target="_blank">
+      <button class="subscribe-btn">Subscribe</button>
+    </a>
+    <p style="margin-top: 1rem; color: #ccc;">I post FC Mobile content, pack openings, leaks, and fun shorts! Join me in the FC Mobile world!</p>
+  </header>
+
+  <nav>
+    <a href="#home">🏠 Home</a>
+    <a href="#content">📹 My Content</a>
+    <a href="#ideas">💡 Suggest Ideas</a>
+    <a href="#leaks">🕵️‍♂️ FC Mobile Leaks</a>
+  </nav>
+
+  <section id="content">
+    <h2>📹 My Content</h2>
+    <p style="margin-bottom: 1rem;">Watch some of my latest shorts – gameplay, pack pulls & more! 👉 Swipe to see more</p>
+    <div class="shorts-container">
+      <iframe src="https://www.youtube.com/embed/p9y7aQxSc0U" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/mKJ5JxSzAr8" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/g4EiU818C9g" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="ideas">
+    <h2>💡 Suggest Ideas</h2>
+    <p>Have any video or shorts ideas? Let me know below!</p>
+    <form action="https://formspree.io/f/xwkggwlj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <textarea name="message" rows="4" placeholder="Your idea..." required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="leaks">
+    <h2>🕵️‍♂️ FC Mobile Leaks</h2>
+    <p>All FC Mobile leaks will be published here 🔥</p>
+    <h3 style="margin-top: 1rem;">⚔️ New Event "Ragnarok: Mighty Winter" Coming This Thursday!</h3>
+    <img class="leak-img" src="https://i.postimg.cc/mg6H7xrj/Gv-N2-MC5-Xc-AA67-RN.jpg" alt="Ragnarok Event">
+    <h3>❄️ Leaked Players of Ragnarok Event</h3>
+    <img class="leak-img" src="https://i.postimg.cc/ZnDdHr52/IMG-0742.png" alt="Ragnarok Players">
+  </section>
+
+  <footer>
+    &copy; 2025 Anmol FC. All rights reserved.
+  </footer>
+
+</body>
+</html>
